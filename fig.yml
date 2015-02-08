@@ -1,0 +1,11 @@
+server:
+  build: .
+  command: "bash /start.sh"
+  ports:
+   - "8838:8838"
+  environment: 
+   SS_SERVER_PORT: 8838
+   SS_PASSWORD: guolinhao
+   SS_METHOD: aes-256-cfb
+  volumes:
+   - ./start.sh:/start.sh
