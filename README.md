@@ -1,7 +1,7 @@
 guolin/shadowsocks-docker
 ====================
 
-[中文介绍](#chinese)
+[中文简介](#中文简介)
 
 docker image to run a shadowsocks server
 
@@ -50,7 +50,7 @@ You will see an output like the following:
 Done!
 
 
-<a id='chinese'>中文介绍</a>
+中文简介
 =========
 shadowsocks 主要是用于翻墙。
 我的实际使用方法是直接在tutum上创建一个digitalocean的docker主机，然后运行这个image，通过ENV的方式进行基本的配置，然后就可以轻松翻墙了。
